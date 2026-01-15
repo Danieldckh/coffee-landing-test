@@ -1,11 +1,11 @@
 :root {
-  --ink: #1f1a16;
-  --cream: #f4efe9;
-  --clay: #c6905c;
-  --olive: #6b5b4d;
-  --espresso: #3a2b24;
-  --mist: rgba(244, 239, 233, 0.85);
-  --shadow: rgba(22, 15, 11, 0.15);
+  --ink: #f7f1f1;
+  --cream: #120707;
+  --clay: #c1121f;
+  --olive: #ffb3b3;
+  --espresso: #0a0a0a;
+  --mist: rgba(18, 7, 7, 0.8);
+  --shadow: rgba(0, 0, 0, 0.55);
 }
 
 * {
@@ -16,9 +16,9 @@ body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
   color: var(--ink);
-  background: radial-gradient(circle at 20% 20%, #f5dcc4 0%, transparent 45%),
-    radial-gradient(circle at 80% 0%, #f0ccb0 0%, transparent 42%),
-    linear-gradient(140deg, #f7f2ec 0%, #efe2d7 45%, #e9d0bf 100%);
+  background: radial-gradient(circle at 15% 10%, rgba(193, 18, 31, 0.35), transparent 55%),
+    radial-gradient(circle at 85% 0%, rgba(255, 77, 90, 0.25), transparent 50%),
+    linear-gradient(140deg, #090606 0%, #130707 45%, #1c0b0b 100%);
   min-height: 100vh;
 }
 
@@ -136,13 +136,13 @@ body {
 .primary {
   background: var(--clay);
   color: #fff;
-  box-shadow: 0 12px 24px rgba(198, 144, 92, 0.4);
+  box-shadow: 0 12px 24px rgba(193, 18, 31, 0.4);
 }
 
 .ghost {
   background: transparent;
-  color: var(--espresso);
-  border: 1px solid var(--espresso);
+  color: var(--clay);
+  border: 1px solid var(--clay);
 }
 
 .hero-meta {
@@ -155,12 +155,12 @@ body {
 .meta-number {
   display: block;
   font-size: 20px;
-  color: var(--espresso);
+  color: var(--clay);
   font-weight: 600;
 }
 
 .hero-card {
-  background: #fff;
+  background: #130a0a;
   border-radius: 28px;
   padding: 28px;
   box-shadow: 0 20px 50px var(--shadow);
@@ -173,7 +173,7 @@ body {
 .tag {
   display: inline-block;
   padding: 6px 12px;
-  background: #f2e6dc;
+  background: #2b0d0d;
   border-radius: 999px;
   font-size: 12px;
   text-transform: uppercase;
@@ -195,12 +195,13 @@ body {
 .price {
   font-size: 24px;
   font-weight: 700;
+  color: var(--clay);
 }
 
 .secondary {
-  background: #fff4ec;
-  color: var(--espresso);
-  border: 1px solid #e5c6ab;
+  background: #2a0d0d;
+  color: var(--ink);
+  border: 1px solid var(--clay);
 }
 
 .split {
@@ -233,7 +234,7 @@ body {
 }
 
 .highlight-block {
-  background: #fff;
+  background: #1a0c0c;
   padding: 18px 20px;
   border-radius: 18px;
   box-shadow: 0 8px 18px var(--shadow);
@@ -262,7 +263,7 @@ body {
 }
 
 .menu-item {
-  background: #fff;
+  background: #1a0c0c;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 24px var(--shadow);
@@ -274,7 +275,7 @@ body {
 }
 
 .menu-item span {
-  color: var(--espresso);
+  color: var(--clay);
   font-weight: 600;
 }
 
@@ -312,7 +313,7 @@ body {
 }
 
 .club-form button {
-  background: #f2b991;
+  background: var(--clay);
   border: none;
   border-radius: 999px;
   padding: 12px 20px;
